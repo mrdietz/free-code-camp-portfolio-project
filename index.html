@@ -8,34 +8,46 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav id="navbar">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        <a href="#projects">Projects</a>
-    </nav>
-    <section id="welcome-section" class="welcom-section">
-        <h1>This H1 element contains text!</h1>
-    </section>
-    <section id="projects">
-        <div class="project-tile">
-            <a href="#">Project 1</a>
+    <div class="container-fluid">
+            <nav id="navbar" class="navbar navbar-light" style="background-color: #e3f2fd;">
+                <div class="container-fluid justify-content-center">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand" aria-current="page" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        
+        <div class="container-fluid">
+            <section id="welcome-section" class="welcome-section d-flex justify-content-center">
+                <h1 class="display-1">Welcome Section</h1>
+            </section>
         </div>
-    </section>
-    <section id="links">
-        <a href="https://github.com" id="profile-link" target="_blank">GitHub!</a>
-    </section>
+
+        <div class="container-fluid">
+            <section id="projects" class="d-flex justify-content-center">
+                <h1 class="display-1">Projects</h1>
+                <div class="project-tile">
+                    <a href="#">Project 1</a>
+                </div>
+            </section>
+        </div>
+
+        <div class="container-fluid">
+            <section id="links" class=" d-flex justify-content-center">
+                <h1 class="display-1">Contact</h1>
+                <a href="https://github.com" id="profile-link" target="_blank">GitHub!</a>
+            </section>
+        </div>
+    
+    </div>    
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
