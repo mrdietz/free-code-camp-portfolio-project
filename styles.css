@@ -1,18 +1,41 @@
 @media (max-width: 28.75em) {
 }
 
-body {
-    padding-top: 50px;
-}
-#welcome-section {
-    height: 100vh;
-    border: solid;
-}
-
 #navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+}
+
+#welcome-section {
+    height: 100vh;
+    /* border: solid; */
+    padding-top: 55px;
+}
+
+#projects {
+    height: 100vh;
+    padding-top: 55px;
+    /* border: solid; */
+    z-index: -1;
+}
+
+.card-img-top {
+    width: 250px;
+}
+
+.row-cols-2 {
+    width: 55vw;
+}
+
+#contact {
+    height: 100vh;
+    padding-top: 55px;
+    /* border: solid; */
+}
+
+i {
+    font-size: 5em;
 }
 
