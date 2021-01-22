@@ -1,6 +1,10 @@
 @media () {
 }
 
+body {
+    background-color: #e3f2fd;
+}
+
 #navbar {
     position: fixed;
     top: 0;
@@ -21,9 +25,9 @@
     z-index: -1;
 }
 
-.card-img-top {
+/* .card-img-top {
     width: 250px;
-}
+} */
 
 .row-cols-2 {
     width: 55vw;
@@ -40,6 +44,9 @@ i {
     padding: 15px;
 }
 
+#libraries {
+    padding-top: 20px;
+}
 
 #row1 {
     background-color: rosybrown;
