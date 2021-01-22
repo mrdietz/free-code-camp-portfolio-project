@@ -1,4 +1,4 @@
-@media (max-width: 28.75em) {
+@media () {
 }
 
 #navbar {
@@ -15,7 +15,7 @@
 }
 
 #projects {
-    height: 100vh;
+    /* height: 100vh; */
     padding-top: 55px;
     /* border: solid; */
     z-index: -1;
@@ -37,5 +37,14 @@
 
 i {
     font-size: 5em;
+    padding: 15px;
 }
 
+
+#row1 {
+    background-color: rosybrown;
+}
+
+#row2 {
+    background-color: skyblue;
+}
