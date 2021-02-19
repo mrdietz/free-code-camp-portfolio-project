@@ -2,7 +2,7 @@
 }
 
 body {
-    background-color: #e3f2fd;
+    background-color: #aed8f7;
 }
 
 #navbar {
@@ -10,6 +10,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    background-color: #e3f2fd;
+    z-index: 2;
 }
 
 #welcome-section {
@@ -22,7 +24,7 @@ body {
     /* height: 100vh; */
     padding-top: 55px;
     /* border: solid; */
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 /* .card-img-top {
@@ -54,4 +56,9 @@ i {
 
 #row2 {
     background-color: skyblue;
+}
+
+.card-link {
+    text-decoration-line: none;
+    color: white;
 }
